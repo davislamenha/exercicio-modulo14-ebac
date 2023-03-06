@@ -9,7 +9,8 @@ body {
   transition: 0.3s all;
 }
 .btn,
-.btn:hover {
+.btn:hover,
+.detalhe {
   background-color: #d9072d;
   color: #f2f1f0;
 }
