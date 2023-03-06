@@ -5,6 +5,16 @@ body {
 .f-carter {
   font-family: 'Carter One', cursive;
 }
+.btn {
+  background-color: #f20519;
+  color: #f2f1f0;
+  transition: 0.3s all;
+}
+.btn:hover {
+  background-color: #f21b42;
+  color: #f2f1f0;
+  scale: 1.1;
+}
 
 /* === HEADER === */
 #cabecalho {
@@ -24,6 +34,9 @@ body {
 }
 
 /* === SOBRE === */
+#sobre {
+  background-color: #f2f1dc;
+}
 #sobre .carousel-item img {
   height: calc(100vh - 56px);
   object-fit: cover;
