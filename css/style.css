@@ -10,7 +10,8 @@ body {
 }
 .btn,
 .btn:hover,
-.detalhe {
+.detalhe,
+#adocao aside .nav-link.active {
   background-color: #d9072d;
   color: #f2f1f0;
 }
@@ -46,4 +47,12 @@ body {
 #sobre .carousel-item img {
   height: calc(100vh - 56px);
   object-fit: cover;
+}
+
+/* === ADOCAO === */
+#adocao aside .nav-link {
+  color: #d9072d;
+}
+#adocao aside .nav-link:hover {
+  opacity: 0.8;
 }
