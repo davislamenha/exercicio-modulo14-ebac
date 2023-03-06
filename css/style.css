@@ -22,3 +22,9 @@ body {
   color: #f2f1f0;
   opacity: 0.8;
 }
+
+/* === SOBRE === */
+#sobre .carousel-item img {
+  height: calc(100vh - 56px);
+  object-fit: cover;
+}
