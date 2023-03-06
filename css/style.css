@@ -2,12 +2,15 @@
 body {
   font-family: 'Golos Text', sans-serif;
 }
+
 .f-carter {
   font-family: 'Carter One', cursive;
 }
+
 .btn {
   transition: 0.3s all;
 }
+
 .btn,
 .btn:hover,
 .detalhe,
@@ -15,12 +18,19 @@ body {
   background-color: #d9072d;
   color: #f2f1f0;
 }
+
 .btn:hover {
   opacity: 0.8;
   scale: 1.1;
 }
+
 .text-red {
   color: #d9072d;
+}
+
+#sobre,
+#doacoes {
+  background-color: #f2f1dc;
 }
 
 /* === HEADER === */
@@ -41,10 +51,6 @@ body {
 }
 
 /* === SOBRE === */
-#sobre {
-  background-color: #f2f1dc;
-}
-
 #sobre .carousel-item img {
   height: calc(100vh - 56px);
   object-fit: cover;
@@ -58,10 +64,12 @@ body {
 #adocao aside .nav-link:hover {
   opacity: 0.8;
 }
+
 #adocao .dog-adocao {
   max-width: max(250px, 100% - 30px);
   height: 600px;
 }
+
 #adocao .dog-adocao img {
   height: 400px;
   object-fit: cover;
@@ -70,4 +78,10 @@ body {
 #adocao .dogs:nth-child(3) .dog-adocao img,
 #adocao .dogs:nth-child(6) .dog-adocao img {
   object-position: bottom center;
+}
+
+/* === DOACOES === */
+#doacoes img {
+  height: 70vh;
+  object-fit: cover;
 }
