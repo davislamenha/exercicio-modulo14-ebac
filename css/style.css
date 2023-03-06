@@ -6,19 +6,24 @@ body {
   font-family: 'Carter One', cursive;
 }
 .btn {
-  background-color: #f20519;
-  color: #f2f1f0;
   transition: 0.3s all;
 }
+.btn,
 .btn:hover {
-  background-color: #f21b42;
+  background-color: #d9072d;
   color: #f2f1f0;
+}
+.btn:hover {
+  opacity: 0.8;
   scale: 1.1;
+}
+.text-red {
+  color: #d9072d;
 }
 
 /* === HEADER === */
 #cabecalho {
-  background-color: #f20519;
+  background-color: #d9072d;
 }
 
 #menu-header .nav-link,
