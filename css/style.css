@@ -44,6 +44,7 @@ body {
 #sobre {
   background-color: #f2f1dc;
 }
+
 #sobre .carousel-item img {
   height: calc(100vh - 56px);
   object-fit: cover;
@@ -53,6 +54,20 @@ body {
 #adocao aside .nav-link {
   color: #d9072d;
 }
+
 #adocao aside .nav-link:hover {
   opacity: 0.8;
+}
+#adocao .dog-adocao {
+  max-width: max(250px, 100% - 30px);
+  height: 600px;
+}
+#adocao .dog-adocao img {
+  height: 400px;
+  object-fit: cover;
+}
+
+#adocao .dogs:nth-child(3) .dog-adocao img,
+#adocao .dogs:nth-child(6) .dog-adocao img {
+  object-position: bottom center;
 }
