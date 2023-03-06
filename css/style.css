@@ -1,4 +1,8 @@
 /* === GERAL === */
+html {
+  scroll-padding-top: 56px;
+}
+
 body {
   font-family: 'Golos Text', sans-serif;
 }
@@ -23,6 +27,11 @@ footer {
 .btn:hover {
   opacity: 0.8;
   scale: 1.1;
+}
+
+#cabecalho .nav-link.active {
+  background-color: #f2f1f0;
+  color: #d9072d;
 }
 
 .text-red {
