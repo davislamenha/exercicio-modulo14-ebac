@@ -118,4 +118,7 @@ footer {
   #sobre .carousel-item img {
     height: 50vh;
   }
+  .detalhe p {
+    font-size: 12px;
+  }
 }
