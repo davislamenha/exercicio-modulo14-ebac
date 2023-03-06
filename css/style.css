@@ -14,7 +14,8 @@ body {
 .btn,
 .btn:hover,
 .detalhe,
-#adocao aside .nav-link.active {
+#adocao aside .nav-link.active,
+footer {
   background-color: #d9072d;
   color: #f2f1f0;
 }
@@ -41,6 +42,10 @@ body {
 /* === HEADER === */
 #cabecalho {
   background-color: #d9072d;
+}
+
+#cabecalho h1 {
+  cursor: default;
 }
 
 #menu-header .nav-link,
